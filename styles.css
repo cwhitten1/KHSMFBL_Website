@@ -14,13 +14,13 @@
 
 .bottom-color-row {
 	background: #C4D8E2; 
-	height: 25px;
+	height: 20px;
 	margin-top: 50px;
 }
 
 .top-color-row {
 	background: #FF0000; 
-	height: 25px;
+	height: 20px;
 }
 
 .index-image-container {
@@ -29,4 +29,9 @@
 	margin-bottom:55px; 
 	background: #C4D8E2;
 	padding: 15px;
+}
+
+.centered-div {
+	width: 75%;
+	margin: 0 auto;
 }
