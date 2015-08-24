@@ -1,0 +1,14 @@
+Jason Football Website
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Homepage
+	- Name of the league
+	- What it is
+	- When we play
+	- What season it is
+	- Any extra info.
+- Player List
+	- Team names
+	- Player names under team names
+- Announcements
+	- Table of announcements, most recent first. 
