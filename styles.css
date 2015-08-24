@@ -7,7 +7,7 @@
 
 .rounded-margin-img {
 	margin: 40px;
-	border-radius: 50px;
+	border-radius: 40px;
 	width: 50%;
 	height: 50%;
 }
@@ -19,6 +19,14 @@
 }
 
 .top-color-row {
-	background: #C4D8E2; 
+	background: #FF0000; 
 	height: 25px;
+}
+
+.index-image-container {
+	margin: 15px; 
+	margin-top: 25px; 
+	margin-bottom:55px; 
+	background: #C4D8E2;
+	padding: 15px;
 }
