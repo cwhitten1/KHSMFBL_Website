@@ -24,7 +24,7 @@ function displayAnnouncements(announcements){
       var curr_ann_timestamp = formatTime(curr_ann_date);
       var curr_ann_datestamp = formatDate(curr_ann_date);
 
-	  new_html += "<div class=\"well content-row\"><div class=\"text-right\">" + curr_ann_datestamp + "</div><div class=\"text-center\">" + curr_ann.get('message') + "</div><div class=\"text-right\">" + curr_ann_timestamp + "</div></div>"
+	  new_html += "<div class=\"well content-row\"><div class=\"text-right\">" + curr_ann_timestamp + "</div><div class=\"text-center\">" + curr_ann.get('message') + "</div><div class=\"text-right\">" + curr_ann_datestamp + "</div></div>";
 
       //new_html += "<div class=\"well text-center content-row\">" + curr_ann.get('message') + " " + curr_ann_timestamp + "</div>";
     }
