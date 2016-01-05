@@ -10,7 +10,7 @@ function loadRosters(){
 	    displayRosters(results);
 	  },
 	  error: function(error) {
-	    alert("Error: Could not load announcements.");
+	    alert("Error: Could not load rosters.");
 	  }
 	});
 }
