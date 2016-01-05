@@ -62,3 +62,9 @@
 	vertical-align: middle;
 	text-align: center;
 }
+
+.marquee-text{
+	font-size: xx-large;
+	color: #FFFFFF;
+	margin-top: 20px;
+}

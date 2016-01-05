@@ -11,6 +11,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="https://www.parsecdn.com/js/parse-1.6.12.min.js"></script>
 		<title>KHS FB Website</title>
   	</head>
 	
@@ -28,16 +29,22 @@
 		<div class="container-fluid top-color-row"></div>
 
 		<!-- Announcements List -->
-		<div class="well text-center content-row">Preseason Week 1 (9/19): #5 Buccaneers Bye-Week - 8/25</div>
-		<div class="well text-center content-row">Preseason Week 1 (9/19): #3 Asian Dragons vs. (0-0) vs #2 Sabertoothes (0-0) - 8/25</div>
-		<div class="well text-center content-row">Preseason Week 1 (9/19): #1 Hurricanes (0-0) vs #4 Polar Bears (0-0) - 8/25</div>
-		<div class="well text-center content-row">Trade Forms are located on Facebook - 8/24</div>
-		<div class="well text-center content-row">Find us on Facebook and Twitter @ OfficialKHSMFL - 8/24</div>
-		<div class="well text-center content-row">Welcome to the new KHS Music Football League! - 8/24</div>
-
+		<div id="announcements_container">
+			
+		</div>
 
 		<div class="container-fluid bottom-color-row"></div>
 
+
+
+
+
+
+
+		<script src="loadAnnouncements.js"></script>
+		<script type="text/javascript">
+   			loadAnnouncements();
+		</script>
 	</body>
 
 
